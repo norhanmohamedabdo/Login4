@@ -41,10 +41,114 @@ body {
   background-position: center;
 }
 header {
-  padding: 31px 0;
+  padding: 15px 0;
 }
 header a {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--black);
 }
+.sign-in .container {
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.sign-in .sign-in-container {
+  width: 500px;
+  padding: 24px;
+  background-color: rgb(255 255 255 / 0.75);
+  border-radius: 40px;
+}
+.sign-in .sign-in-container .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-in .heading .message {
+  font-size: 18px;
+  font-weight: 400;
+}
+.sign-in .heading .message span {
+  font-weight: 600;
+  color: var(--palm-leaf);
+}
+.sign-in .heading .account {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--philippine-gray);
+}
+.sign-in .heading .account a {
+  color: var(--palm-leaf);
+}
+.sign-in h1 {
+  font-size: 34px;
+  font-weight: 500;
+  color: var(--black);
+}
+.sign-in .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+.sign-in .login .google {
+  width: 298px;
+  padding: 10px 15px;
+  background-color: var(--alice-blue);
+  border-radius: 9px;
+}
+.sign-in .login .google a {
+  display: flex;
+  align-items: center;
+  color: var(--blueberry);
+  font-size: 14px;
+  font-weight: 400;
+}
+.sign-in .login .google a img {
+  margin-right: 10px;
+}
+.sign-in .login .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 35px;
+  background-color: var(--white);
+  border-radius: 9px;
+}
+.sign-in form {
+  margin-top: 10px;
+}
+.sign-in form label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.sign-in form input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 9px;
+}
+.sign-in form a {
+  display: block;
+  margin: 10px 0 15px 0;
+  text-align: right;
+  color: var(--blueberry);
+}
+
+.sign-in form input[type="submit"] {
+   width: fit-content; 
+  padding: 10px 30px;
+  margin: 20px 0  20px  auto;
+  color: var(--white);
+  background-color: var(--palm-leaf);
+}
+
