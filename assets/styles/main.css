@@ -147,8 +147,22 @@ header a {
 .sign-in form input[type="submit"] {
    width: fit-content; 
   padding: 10px 30px;
-  margin: 20px 0  20px  auto;
+  margin: 20px 0  0  auto;
   color: var(--white);
   background-color: var(--palm-leaf);
 }
 
+.sign-in form .data-user {
+   margin: 10px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+ 
+}
+.sign-in form .data-user div {
+  flex-grow: 1;
+}
+.sign-in form .data-user input {
+  flex-basis: 100%;
+}
